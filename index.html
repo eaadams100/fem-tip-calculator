@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/modern-normalize.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  
+  <title>Tip calculator app</title>
+</head>
+<body>
+  <div class="header-img">
+    <img class="" src="./images/logo.svg" alt="header image">
+  </div>
+
+  <div class="container">
+    <div class="bill-input-container">
+      <label for="bill" class="title">Bill</label>
+        <div class="input-box">
+          <img src="./images/icon-dollar.svg" class="dollar-icon" alt="">
+          <input class="inputs" id="bill" type="number" placeholder="">
+        </div>
+      <p class="title">Select Tip %</p>
+      <div class="select-tip">
+        <button>5%</button>
+        <button>10%</button>
+        <button>15%</button>
+        <button>25%</button>
+        <button>50%</button>
+        <input type="number" name="custom" id="custom" class="custom" placeholder="Custom">
+      </div>
+
+      <label for="num-of-people" class="title">Number of People</label>
+      <div class="input-box">
+        <img src="./images/icon-person.svg" class="icon-person" alt="Person">
+        <input class="inputs" id="num-of-people" type="number">
+      </div>
+    </div>
+
+
+
+    <div class="tip-amount-container">
+      <div>
+        <p class="tip-title">Tip Amount <br><small>/ person</small></p>
+        <p class="tip-amount">0.00</p>
+      </div>
+      <div>
+        <p class="tip-title">Total <br><small>/ person</small></p>
+        <p class="tip-amount">0.00</p>
+      </div>
+
+      <button class="reset-btn">RESET</button>
+    </div>
+  </div>
+</body>
+</html>

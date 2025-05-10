@@ -67,13 +67,13 @@ label {
 }
 .dollar-icon {
   position: absolute;
-  top: 18%;
+  top: 20%;
   left: 14px;
   
 }
 .icon-person {
   position: absolute;
-  top: 18%;
+  top: .8rem;
   left: 14px;
 }
 
@@ -127,7 +127,7 @@ label {
   text-align: right;
   color: var(--clr-very-dark-cyan);
   font-weight: var(--FONT-WEIGHT);
-  font-size: 20px;
+  font-size: 20px !important;
   border-radius: 5px;
   padding-right: 2rem;
   padding-left: 1.2rem;
@@ -225,6 +225,10 @@ small {
 
 
   }
+  .icon-person {
+    top: 30%;
+    
+  }
   .select-tip {
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 6.3rem 6.3rem 6.3rem;
@@ -248,7 +252,8 @@ small {
     padding-left: .5rem;
     font-size: 1rem;
   }
-  .tip-amount {
+  .tip-per-person,
+  .total-per-person {
     color: var(--clr-strong-cyan);
     font-size: 2.2em;
     font-weight: var(--FONT-WEIGHT);
